@@ -1,5 +1,15 @@
 # nn_one
 Experimental neural network project for crypto price prediction
+
+## 3.2023 The following networks do not train well 
+    because there needs to be Normalization. Its because it would use 
+    the price difference rather than the Crypto Price, thus the fluctuation 
+    of the candle.close are in lack of better word, not suitable yet.
+    To overcome this problem, the price movement must be normalized 
+    by scale and by time. 
+    Therefor it must use indicators like moving averages 
+    for time normalisation while the activation method must be choosen 
+    of type bipolar (Sigmoid or similar), to train the nn properly.
 ---
 ---
 
