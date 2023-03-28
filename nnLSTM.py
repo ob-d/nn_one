@@ -1,4 +1,7 @@
 
+# This script is similar to the previous DFFNN script but uses an LSTM network instead. The LSTM network takes as input a sequence of `seq_length` price data points and outputs a prediction for the next day's price.
+# The script also includes some additional data preprocessing steps to normalize the price data before training. Normalizing the data can help improve the performance of the model.
+# You can try running this script to see if it improves the performance of your model. You can also experiment with different values of `hidden_size`, `num_layers`, `seq_length`, and other hyperparameters to see if they improve performance.
 import torch
 import torch.nn as nn
 import numpy as np
@@ -95,7 +98,3 @@ for epoch in range(num_epochs):
     # Print the loss every 100 epochs
     if (epoch + 1) % 10 == 0:
         print(f'Epoch [{epoch+1}/{num_epochs}], Loss: {loss.item():.4f}')
-
-# This script is similar to the previous DFFNN script but uses an LSTM network instead. The LSTM network takes as input a sequence of `seq_length` price data points and outputs a prediction for the next day's price.
-# The script also includes some additional data preprocessing steps to normalize the price data before training. Normalizing the data can help improve the performance of the model.
-# You can try running this script to see if it improves the performance of your model. You can also experiment with different values of `hidden_size`, `num_layers`, `seq_length`, and other hyperparameters to see if they improve performance.

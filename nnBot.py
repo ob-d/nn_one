@@ -1,7 +1,6 @@
 
 # target_size = 1
 # This sets the `target_size` variable to 1, which means that the network will predict one day ahead.
-
 import torch
 import torch.nn as nn
 import numpy as np
