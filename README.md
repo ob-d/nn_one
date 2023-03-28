@@ -2,8 +2,6 @@
 Experimental neural network project for crypto price prediction
 ---
 ---
----
----
 
 ## INSTALLATION
     To check if Python is installed Open a Terminal and enter 
