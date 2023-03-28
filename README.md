@@ -6,11 +6,17 @@ Experimental neural network project for crypto price prediction
 ## INSTALLATION
     To check if Python is installed Open a Terminal and enter 
     python --version
-    If it does not work with your current version, you need to update to the latest stable version for compatibility with the libraries.
+    If it does not work with your current version, you need to 
+    update to the latest stable version for compatibility with 
+    the libraries.
     
-    To run the script, you'll need to have Python installed on your computer. You can download and install Python from the official website link below.
+    To run the script, you'll need to have Python installed on your computer. You can download and install Python from the official 
+    website link below.
 
-    Once you have Python installed, you'll also need to install the required libraries. You can do this by opening a command prompt or terminal window and running the following command:
+    Once you have Python installed, you'll also need to install 
+    the required libraries. You can do this by opening a 
+    command prompt or terminal window and running 
+    the following command:
 
 ## 1 first install python
 ```
@@ -32,7 +38,9 @@ python nnSTM.py
 ```
 
 
-This will execute the script using the Python interpreter. The script will fetch historical price data from the Binance API, preprocess the data, train a DFFNN on the data, and then print the loss at each epoch of training.
+This will execute the script using the Python interpreter. The script 
+will fetch historical price data from the Binance API, preprocess the data, 
+train a DFFNN on the data, and then print the loss at each epoch of training.
 
 If everything is set up correctly, you should see output similar to this:
 
