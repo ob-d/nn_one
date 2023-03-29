@@ -1,6 +1,8 @@
 # nn_one
 Experimental neural network project for crypto price prediction
 
+# The author of the following networks is Bing Ai Chat
+
 ## 3.2023 The following networks do not train well 
     because there needs to be Normalization. Its because it would use 
     the price difference rather than the Crypto Price, thus the fluctuation 

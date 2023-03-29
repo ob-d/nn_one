@@ -1,4 +1,5 @@
 
+# The author of the following networks is Bing Ai Chat
 # target_size = 1
 # This sets the `target_size` variable to 1, which means that the network will predict one day ahead.
 import torch
